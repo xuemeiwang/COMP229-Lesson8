@@ -16,6 +16,8 @@ namespace COMP229_Lesson8.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            ViewBag.Title = "About";
+            ViewBag.Sara = "Sara";
 
             return View();
         }
